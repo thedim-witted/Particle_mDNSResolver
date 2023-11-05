@@ -1,4 +1,4 @@
-#include "mDNSResolver/mDNSResolver.h"
+#include "mDNSResolver.h"
 #include "Arduino.h"
 #include "Particle.h"
 

@@ -4,9 +4,9 @@
 // #include <mDNSResolver/IPAddress.h>
 // #include <WiFiUDP.h>
 #include "Particle.h"
-#include "mDNSResolver/Cache.h"
-#include "mDNSResolver/Query.h"
-#include "mDNSResolver/Answer.h"
+#include "./Cache.h"
+#include "./Query.h"
+#include "./Answer.h"
 
 #define MDNS_BROADCAST_IP IPAddress(224, 0, 0, 251)
 #define MDNS_PORT         5353
